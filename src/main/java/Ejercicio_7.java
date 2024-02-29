@@ -14,7 +14,7 @@ public class Ejercicio_7 {
      */
     public static int[] factores(int numero){
         //inicializamos un array para almacenar los factores primos
-        int factoresprimos[]=new int[6];
+        int factoresprimos[]=new int[10];
         int indice=0;
         for(int factor=2; factor<=numero; factor++){
             if(numero%factor==0){
@@ -39,7 +39,9 @@ public class Ejercicio_7 {
         //imprimimos los factores primos obtenidos
         System.out.print(numero+ " = ");
         for (int i=0; i < factoresPrimos.length; i++){
+            if(factoresPrimos[i]!=0){
             System.out.print(factoresPrimos[i]+"*");
+            }
 
         }
     }
