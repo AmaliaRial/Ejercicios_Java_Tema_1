@@ -40,7 +40,6 @@ public class Ejercicio_4 {
     public static int min( int[] a){
         int min =a[0];
         int i;
-        int j;
         for (i=0; i<a.length; i++){
             if(a[i]<min) min= a[i];
         }
@@ -56,7 +55,6 @@ public class Ejercicio_4 {
     public static int max( int[] a){
         int max =a[0];
         int i;
-        int j;
         for (i=0; i<a.length; i++){
             if(a[i]>max) max= a[i];
         }
